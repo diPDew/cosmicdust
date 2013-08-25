@@ -16,6 +16,6 @@ public class Main {
     }
 
     public static int solve(int input) {
-    	
+
     }
 }
