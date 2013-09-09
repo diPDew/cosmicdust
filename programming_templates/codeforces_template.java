@@ -7,15 +7,15 @@ public class Main {
 		OutputStream outputStream = System.out;
 		InputReader in = new InputReader(inputStream);
 		PrintWriter out = new PrintWriter(outputStream);
-		TaskC solver = new TaskC();
-		solver.solve(1, in, out);
+		Task solver = new Task();
+		solver.solve(in, out);
 		out.close();
 	}
 }
 
 class Task {
 
-    public void solve(int testNumber, InputReader in, PrintWriter out) {
+    public void solve(InputReader in, PrintWriter out) {
         int n = in.nextInt();
        
         int res = foo();
